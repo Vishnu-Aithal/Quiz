@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 75vw;
+  margin: 1rem auto;
+  border: 2px solid var(--color-black-light);
+}
+
+.question {
+  border: 2px solid var(--color-black-light);
+  width: 80%;
+}
+
+.question__choice {
+  border: solid 2px var(--color-black-light);
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    margin-top: 1rem;
+    max-width: 95vw;
+  }
+}
