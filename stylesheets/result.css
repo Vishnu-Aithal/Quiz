@@ -14,7 +14,7 @@
 }
 
 .question__choice {
-  border: solid 2px var(--color-black-light);
+  border: solid 1px var(--color-black-light);
   pointer-events: none;
 }
 
