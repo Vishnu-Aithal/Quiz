@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://some-ui-components.netlify.app/export.css"
+    />
+    <link rel="stylesheet" href="/stylesheets/result.css" />
+    <title>Result</title>
+  </head>
+  <body>
+    <nav class="nav-bar bg-secondary-light shadow-sm">
+      <div class="nav-bar__header heading-md text-bold clr-white me-2">
+        <a class="nav-bar__link" href="#">Quizz</a>
+      </div>
+      <button
+        class="nav-bar__toggle btn btn--icon-lg clr-white br-2 ms-auto"
+        data-toggle="#nav-links"
+      >
+        <i class="nav-bar__toggle-icon fas fa-bars"></i>
+      </button>
+      <ul class="ms-auto nav-bar__list-group clr-white" id="nav-links">
+        <li class="nav-bar__list-item mx-1">
+          <a href="#" class="nav-bar__link">My Scores</a>
+        </li>
+        <li class="nav-bar__list-item mx-1">
+          <a href="#" class="nav-bar__link">Sign In</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="content p-3 shadow-sm bg-off-white">
+      <h1 class="heading-md mb-4">Results</h1>
+      <h2 class="heading-sm">
+        Final Score: <span class="clr-primary">5/15</span>
+      </h2>
+
+      <div class="question bg-white p-3 br-2 my-2 shadow-sm">
+        <p class="question__current text-bold text-lg text-bold">
+          Where did Micheal scott get his favourite mug from?
+        </p>
+        <button class="question__choice btn br-3 my-3 w-100p p-3 bg-green">
+          Spencer Gifts Shop
+        </button>
+        <button class="question__choice btn br-3 my-3 w-100p p-3 bg-red">
+          Gift from Employee
+        </button>
+        <button class="question__choice btn br-3 my-3 w-100p p-3">
+          Gift from Family
+        </button>
+      </div>
+      <div class="question bg-white p-3 br-2 my-2 shadow-sm">
+        <p class="question__current text-bold text-lg text-bold">
+          Which of the following is Toby's Designation
+        </p>
+        <button class="question__choice btn br-3 my-3 w-100p p-3">
+          Engineer
+        </button>
+        <button class="question__choice btn br-3 my-3 w-100p p-3">CLerk</button>
+        <button class="question__choice btn br-3 my-3 w-100p p-3 bg-green">
+          HR Manager
+        </button>
+      </div>
+      <div class="question bg-white p-3 br-2 my-2 shadow-sm">
+        <p class="question__current text-bold text-lg text-bold">
+          What is Dwight's farm's name?
+        </p>
+        <button class="question__choice btn br-3 my-3 w-100p p-3 bg-green">
+          Shcrute farms
+        </button>
+        <button class="question__choice btn br-3 my-3 w-100p p-3 bg-red">
+          Dwight's farms
+        </button>
+        <button class="question__choice btn br-3 my-3 w-100p p-3">
+          Beetroot Farm
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
