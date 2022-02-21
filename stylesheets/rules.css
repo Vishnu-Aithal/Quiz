@@ -1,0 +1,30 @@
+.rules {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  border: 2px solid var(--color-black-light);
+}
+
+.rules__item {
+  list-style: url(/assets/Images/lightning-fill.svg);
+  margin: 1rem;
+}
+.rules__item {
+  margin: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .rules__heading {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .rules__item {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 1rem;
+  }
+}
