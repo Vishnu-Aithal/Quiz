@@ -23,4 +23,8 @@
     margin-top: 1rem;
     max-width: 95vw;
   }
+
+  .question {
+    width: 100%;
+  }
 }
